@@ -4,5 +4,7 @@ For more information, please visit https://docs.microsoft.com/en-us/uwp/api/wind
 
 The language that is supported by the OcrEngine depends on what language is installed on your Windows 10 box. The script will detect the available languages and you will be able to select it from the drop down menu.
 
-Within my code, there is a function call Get-TextFromPicture, which is actually taken from https://github.com/HumanEquivalentUnit/PowerShell-Misc/blob/master/Get-Win10OcrTextFromImage.ps1 and i modified it a bit to suit my needs. Credit goes to HumanEquivalentUnit for that.
+Within my code, there is a function call Get-TextFromPicture, which is actually taken from https://github.com/HumanEquivalentUnit/PowerShell-Misc/blob/master/Get-Win10OcrTextFromImage.ps1 and i modified it a bit to suit my needs. Credit goes to https://github.com/HumanEquivalentUnit for that.
+
+The drag and drop functionality in this form was copied and modified with reference to https://www.rlvision.com/blog/a-drag-and-drop-gui-made-with-powershell/ , credit goes to https://github.com/rlv-dan
 
